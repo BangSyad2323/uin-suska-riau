@@ -312,7 +312,7 @@
                 Happy Birthday, Dek Caa
             </h1>
             <p class="text-rose-100 italic drop-shadow-md font-semibold tracking-wide">
-                "ga nyangka, perasaan kemarin masih jadi bocilnya mas😙"<br/>coba pencet foto nya adek
+                "ga nyangka, perasaan kemarin masih jadi bocilnya mas😙"<br/>coba pencet foto adek diatas <br/> (Kerasin volumenya yaa)
             </p>
         </div>
         <!-- Scroll Down Indicator -->
@@ -596,7 +596,7 @@ function claimAngpao() {
     alert('Ciee ayankk dapet angpao! 🧧✨\n\nKlik OK buat ambil saldo DANA-nya ya cinta... Jangan lupa jajan 🥰❤️');
 
     // 2. Link DANA Kaget (Ganti bagian di dalam petik dengan link aslimu nanti)
-    const linkDanaKaget = "https://link.dana.id/danakaget?c=s2ghyhmf3&r=hnnQSj&orderId=20260507101214557915010300166413776863577";
+    const linkDanaKaget = "https://link.dana.id/danakaget?c=s5msxc4be&r=hnnQSj&orderId=20260507101214551715010300166413776926426";
 
     // 3. Arahkan ke link DANA setelah klik OK
     window.location.href = linkDanaKaget;
@@ -696,6 +696,7 @@ function toggleMusic() {
 }
 
 function playMusic() {
+    audio.volume = 1.0;
     audio.play().then(() => {
         musicControl.classList.remove('hidden');
         musicIcon.classList.add('animate-spin-slow');
